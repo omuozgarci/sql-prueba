@@ -1,0 +1,3062 @@
+{
+  "conversation_id": "0725c252-f652-47f0-8baf-5f7173a4a642",
+  "next_message": null,
+  "history": [
+    {
+      "user": {
+        "additional_context": "",
+        "env_context": {
+          "env_state": {
+            "operating_system": "linux",
+            "current_working_directory": "/root",
+            "environment_variables": []
+          }
+        },
+        "content": {
+          "Prompt": {
+            "prompt": "conoces los metodos qu3 hay para extraer los assets y demas cosas de un juego de psx?"
+          }
+        },
+        "timestamp": "2025-12-27T06:35:03.839541905Z",
+        "images": null
+      },
+      "assistant": {
+        "Response": {
+          "message_id": "1028a6bc-98a5-4c5a-ba31-6c6db8f3ae33",
+          "content": "Sí, hay varios métodos para extraer assets de juegos de PlayStation 1:\n\n## Herramientas principales\n\n**PSX Game Edit** - Editor visual que permite extraer y modificar sprites, texturas y otros assets directamente desde ISOs de PSX.\n\n**jPSXdec** - Herramienta Java especializada en extraer video, audio, imágenes y datos de juegos PSX. Muy efectiva para FMVs y assets multimedia.\n\n**PSound** - Específico para extraer audio (música, efectos de sonido) de juegos PSX.\n\n**TiledGGD** - Para extraer y visualizar gráficos en formato tile/sprite de ROMs y ISOs.\n\n## Métodos por tipo de asset\n\n**Gráficos/Sprites:**\n- Buscar patrones de paletas de colores en el ISO\n- Usar editores hexadecimales para localizar datos gráficos\n- Herramientas como YY-CHR para visualizar datos gráficos raw\n\n**Audio:**\n- Extraer archivos .VAG, .XA o .SEQ\n- Convertir usando VGMToolbox o foobar2000 con plugins PSF\n\n**Video:**\n- Los FMVs suelen estar en formato STR\n- jPSXdec puede convertirlos a formatos modernos\n\n**Modelos 3D:**\n- Más complejo, requiere ingeniería inversa\n- Herramientas como Noesis o scripts personalizados\n\n## Proceso general\n\n1. Montar/extraer el ISO del juego\n2. Analizar la estructura de archivos\n3. Identificar formatos de datos específicos del juego\n4. Usar las herramientas apropiadas según el tipo de asset\n5. Convertir a formatos modernos si es necesario\n\n¿Hay algún juego específico o tipo de asset que te interese extraer?"
+        }
+      },
+      "request_metadata": {
+        "request_id": "aac0a04b-8a4c-49ec-8cc3-0581e0102bf2",
+        "message_id": "1028a6bc-98a5-4c5a-ba31-6c6db8f3ae33",
+        "request_start_timestamp_ms": 1766817303856,
+        "stream_end_timestamp_ms": 1766817314763,
+        "time_to_first_chunk": {
+          "secs": 2,
+          "nanos": 201016405
+        },
+        "time_between_chunks": [
+          {
+            "secs": 0,
+            "nanos": 61094
+          },
+          {
+            "secs": 0,
+            "nanos": 88212448
+          },
+          {
+            "secs": 0,
+            "nanos": 531458
+          },
+          {
+            "secs": 0,
+            "nanos": 85072240
+          },
+          {
+            "secs": 0,
+            "nanos": 94635
+          },
+          {
+            "secs": 0,
+            "nanos": 89412708
+          },
+          {
+            "secs": 0,
+            "nanos": 2717760
+          },
+          {
+            "secs": 0,
+            "nanos": 89207865
+          },
+          {
+            "secs": 0,
+            "nanos": 157129270
+          },
+          {
+            "secs": 0,
+            "nanos": 306129479
+          },
+          {
+            "secs": 0,
+            "nanos": 510781
+          },
+          {
+            "secs": 0,
+            "nanos": 23958
+          },
+          {
+            "secs": 0,
+            "nanos": 15729
+          },
+          {
+            "secs": 0,
+            "nanos": 34063
+          },
+          {
+            "secs": 0,
+            "nanos": 16511
+          },
+          {
+            "secs": 0,
+            "nanos": 14115
+          },
+          {
+            "secs": 0,
+            "nanos": 14427
+          },
+          {
+            "secs": 0,
+            "nanos": 627083
+          },
+          {
+            "secs": 0,
+            "nanos": 88887500
+          },
+          {
+            "secs": 0,
+            "nanos": 7408646
+          },
+          {
+            "secs": 0,
+            "nanos": 88137240
+          },
+          {
+            "secs": 0,
+            "nanos": 12047917
+          },
+          {
+            "secs": 0,
+            "nanos": 88285729
+          },
+          {
+            "secs": 0,
+            "nanos": 641614
+          },
+          {
+            "secs": 0,
+            "nanos": 87461822
+          },
+          {
+            "secs": 0,
+            "nanos": 1297031
+          },
+          {
+            "secs": 0,
+            "nanos": 94534948
+          },
+          {
+            "secs": 0,
+            "nanos": 13773854
+          },
+          {
+            "secs": 0,
+            "nanos": 55314063
+          },
+          {
+            "secs": 0,
+            "nanos": 28880208
+          },
+          {
+            "secs": 0,
+            "nanos": 41776146
+          },
+          {
+            "secs": 0,
+            "nanos": 99394219
+          },
+          {
+            "secs": 0,
+            "nanos": 138229
+          },
+          {
+            "secs": 0,
+            "nanos": 84045209
+          },
+          {
+            "secs": 0,
+            "nanos": 2095781
+          },
+          {
+            "secs": 0,
+            "nanos": 106331302
+          },
+          {
+            "secs": 0,
+            "nanos": 377475573
+          },
+          {
+            "secs": 0,
+            "nanos": 89205938
+          },
+          {
+            "secs": 0,
+            "nanos": 1628021
+          },
+          {
+            "secs": 0,
+            "nanos": 58177
+          },
+          {
+            "secs": 0,
+            "nanos": 70104
+          },
+          {
+            "secs": 0,
+            "nanos": 44844
+          },
+          {
+            "secs": 0,
+            "nanos": 41406
+          },
+          {
+            "secs": 0,
+            "nanos": 1212812
+          },
+          {
+            "secs": 0,
+            "nanos": 157708
+          },
+          {
+            "secs": 0,
+            "nanos": 443386
+          },
+          {
+            "secs": 0,
+            "nanos": 83996302
+          },
+          {
+            "secs": 0,
+            "nanos": 8390312
+          },
+          {
+            "secs": 0,
+            "nanos": 61784427
+          },
+          {
+            "secs": 0,
+            "nanos": 27764115
+          },
+          {
+            "secs": 0,
+            "nanos": 77470052
+          },
+          {
+            "secs": 0,
+            "nanos": 16018646
+          },
+          {
+            "secs": 0,
+            "nanos": 85113646
+          },
+          {
+            "secs": 0,
+            "nanos": 6833489
+          },
+          {
+            "secs": 0,
+            "nanos": 90974479
+          },
+          {
+            "secs": 0,
+            "nanos": 4754114
+          },
+          {
+            "secs": 0,
+            "nanos": 46921094
+          },
+          {
+            "secs": 0,
+            "nanos": 90137761
+          },
+          {
+            "secs": 0,
+            "nanos": 5276563
+          },
+          {
+            "secs": 0,
+            "nanos": 61649271
+          },
+          {
+            "secs": 0,
+            "nanos": 28430104
+          },
+          {
+            "secs": 0,
+            "nanos": 49649167
+          },
+          {
+            "secs": 0,
+            "nanos": 87491927
+          },
+          {
+            "secs": 0,
+            "nanos": 6289480
+          },
+          {
+            "secs": 0,
+            "nanos": 84921250
+          },
+          {
+            "secs": 0,
+            "nanos": 4310469
+          },
+          {
+            "secs": 0,
+            "nanos": 246254739
+          },
+          {
+            "secs": 0,
+            "nanos": 307778542
+          },
+          {
+            "secs": 0,
+            "nanos": 1274740
+          },
+          {
+            "secs": 0,
+            "nanos": 119740
+          },
+          {
+            "secs": 0,
+            "nanos": 42292
+          },
+          {
+            "secs": 0,
+            "nanos": 71406
+          },
+          {
+            "secs": 0,
+            "nanos": 52396
+          },
+          {
+            "secs": 0,
+            "nanos": 40677
+          },
+          {
+            "secs": 0,
+            "nanos": 41094
+          },
+          {
+            "secs": 0,
+            "nanos": 40261
+          },
+          {
+            "secs": 0,
+            "nanos": 21313489
+          },
+          {
+            "secs": 0,
+            "nanos": 77102292
+          },
+          {
+            "secs": 0,
+            "nanos": 12505104
+          },
+          {
+            "secs": 0,
+            "nanos": 54453438
+          },
+          {
+            "secs": 0,
+            "nanos": 89585365
+          },
+          {
+            "secs": 0,
+            "nanos": 7056407
+          },
+          {
+            "secs": 0,
+            "nanos": 42847292
+          },
+          {
+            "secs": 0,
+            "nanos": 87830000
+          },
+          {
+            "secs": 0,
+            "nanos": 5017604
+          },
+          {
+            "secs": 0,
+            "nanos": 88942656
+          },
+          {
+            "secs": 0,
+            "nanos": 2178073
+          },
+          {
+            "secs": 0,
+            "nanos": 47830157
+          },
+          {
+            "secs": 0,
+            "nanos": 45716563
+          },
+          {
+            "secs": 0,
+            "nanos": 48809323
+          },
+          {
+            "secs": 0,
+            "nanos": 79951875
+          },
+          {
+            "secs": 0,
+            "nanos": 10711718
+          },
+          {
+            "secs": 0,
+            "nanos": 87269635
+          },
+          {
+            "secs": 0,
+            "nanos": 8515156
+          },
+          {
+            "secs": 0,
+            "nanos": 40941511
+          },
+          {
+            "secs": 0,
+            "nanos": 47322136
+          },
+          {
+            "secs": 0,
+            "nanos": 300663854
+          },
+          {
+            "secs": 0,
+            "nanos": 219374166
+          },
+          {
+            "secs": 0,
+            "nanos": 1012344
+          },
+          {
+            "secs": 0,
+            "nanos": 70990
+          },
+          {
+            "secs": 0,
+            "nanos": 42917
+          },
+          {
+            "secs": 0,
+            "nanos": 39271
+          },
+          {
+            "secs": 0,
+            "nanos": 38906
+          },
+          {
+            "secs": 0,
+            "nanos": 682864
+          },
+          {
+            "secs": 0,
+            "nanos": 1413907
+          },
+          {
+            "secs": 0,
+            "nanos": 9324479
+          },
+          {
+            "secs": 0,
+            "nanos": 43349271
+          },
+          {
+            "secs": 0,
+            "nanos": 89555782
+          },
+          {
+            "secs": 0,
+            "nanos": 6243854
+          },
+          {
+            "secs": 0,
+            "nanos": 89859375
+          },
+          {
+            "secs": 0,
+            "nanos": 2394010
+          },
+          {
+            "secs": 0,
+            "nanos": 88506198
+          },
+          {
+            "secs": 0,
+            "nanos": 7880052
+          },
+          {
+            "secs": 0,
+            "nanos": 66215209
+          },
+          {
+            "secs": 0,
+            "nanos": 24167969
+          },
+          {
+            "secs": 0,
+            "nanos": 80249167
+          },
+          {
+            "secs": 0,
+            "nanos": 15114687
+          },
+          {
+            "secs": 0,
+            "nanos": 91280469
+          },
+          {
+            "secs": 0,
+            "nanos": 544896
+          },
+          {
+            "secs": 0,
+            "nanos": 89467188
+          },
+          {
+            "secs": 0,
+            "nanos": 5156094
+          },
+          {
+            "secs": 0,
+            "nanos": 89935052
+          },
+          {
+            "secs": 0,
+            "nanos": 2548959
+          },
+          {
+            "secs": 0,
+            "nanos": 90037552
+          },
+          {
+            "secs": 0,
+            "nanos": 8069896
+          },
+          {
+            "secs": 0,
+            "nanos": 407024531
+          },
+          {
+            "secs": 0,
+            "nanos": 1859479
+          },
+          {
+            "secs": 0,
+            "nanos": 2548178
+          },
+          {
+            "secs": 0,
+            "nanos": 589219
+          },
+          {
+            "secs": 0,
+            "nanos": 5403646
+          },
+          {
+            "secs": 0,
+            "nanos": 1544584
+          },
+          {
+            "secs": 0,
+            "nanos": 13212500
+          },
+          {
+            "secs": 0,
+            "nanos": 87341615
+          },
+          {
+            "secs": 0,
+            "nanos": 484584
+          },
+          {
+            "secs": 0,
+            "nanos": 93114635
+          },
+          {
+            "secs": 0,
+            "nanos": 721927
+          },
+          {
+            "secs": 0,
+            "nanos": 87372343
+          },
+          {
+            "secs": 0,
+            "nanos": 4283385
+          },
+          {
+            "secs": 0,
+            "nanos": 99474531
+          },
+          {
+            "secs": 0,
+            "nanos": 86734063
+          },
+          {
+            "secs": 0,
+            "nanos": 15172135
+          },
+          {
+            "secs": 0,
+            "nanos": 89131354
+          },
+          {
+            "secs": 0,
+            "nanos": 1140104
+          },
+          {
+            "secs": 0,
+            "nanos": 89955625
+          },
+          {
+            "secs": 0,
+            "nanos": 2484167
+          },
+          {
+            "secs": 0,
+            "nanos": 89925365
+          },
+          {
+            "secs": 0,
+            "nanos": 1360573
+          },
+          {
+            "secs": 0,
+            "nanos": 87535782
+          },
+          {
+            "secs": 0,
+            "nanos": 4054531
+          },
+          {
+            "secs": 0,
+            "nanos": 67051614
+          },
+          {
+            "secs": 0,
+            "nanos": 31189792
+          },
+          {
+            "secs": 0,
+            "nanos": 379880573
+          },
+          {
+            "secs": 0,
+            "nanos": 93113229
+          },
+          {
+            "secs": 0,
+            "nanos": 1444063
+          },
+          {
+            "secs": 0,
+            "nanos": 48594
+          },
+          {
+            "secs": 0,
+            "nanos": 191302
+          },
+          {
+            "secs": 0,
+            "nanos": 43229
+          },
+          {
+            "secs": 0,
+            "nanos": 43230
+          },
+          {
+            "secs": 0,
+            "nanos": 57395
+          },
+          {
+            "secs": 0,
+            "nanos": 41563
+          },
+          {
+            "secs": 0,
+            "nanos": 11699271
+          },
+          {
+            "secs": 0,
+            "nanos": 23833489
+          },
+          {
+            "secs": 0,
+            "nanos": 70710313
+          },
+          {
+            "secs": 0,
+            "nanos": 22761615
+          },
+          {
+            "secs": 0,
+            "nanos": 82825677
+          },
+          {
+            "secs": 0,
+            "nanos": 7409167
+          },
+          {
+            "secs": 0,
+            "nanos": 94597969
+          },
+          {
+            "secs": 0,
+            "nanos": 18501770
+          },
+          {
+            "secs": 0,
+            "nanos": 32394688
+          },
+          {
+            "secs": 0,
+            "nanos": 91055052
+          },
+          {
+            "secs": 0,
+            "nanos": 438907
+          },
+          {
+            "secs": 0,
+            "nanos": 57639896
+          },
+          {
+            "secs": 0,
+            "nanos": 37434583
+          },
+          {
+            "secs": 0,
+            "nanos": 162594063
+          },
+          {
+            "secs": 0,
+            "nanos": 1080104
+          },
+          {
+            "secs": 0,
+            "nanos": 31511
+          },
+          {
+            "secs": 0,
+            "nanos": 18530000
+          },
+          {
+            "secs": 0,
+            "nanos": 85353646
+          },
+          {
+            "secs": 0,
+            "nanos": 1754531
+          },
+          {
+            "secs": 0,
+            "nanos": 344740
+          }
+        ],
+        "user_prompt_length": 245,
+        "response_size": 1444,
+        "chat_conversation_type": "NotToolUse",
+        "tool_use_ids_and_names": [],
+        "model_id": "auto",
+        "message_meta_tags": []
+      }
+    },
+    {
+      "user": {
+        "additional_context": "",
+        "env_context": {
+          "env_state": {
+            "operating_system": "linux",
+            "current_working_directory": "/root",
+            "environment_variables": []
+          }
+        },
+        "content": {
+          "Prompt": {
+            "prompt": "si, conoces bomberman fantasy race?"
+          }
+        },
+        "timestamp": "2025-12-27T06:35:32.809995853Z",
+        "images": null
+      },
+      "assistant": {
+        "Response": {
+          "message_id": "889440eb-ce57-44bf-92dd-6a3fe0a17568",
+          "content": "Sí, conozco Bomberman Fantasy Race. Es un juego de carreras de 1998 desarrollado por Graphic Research para PlayStation, donde los personajes de Bomberman compiten en carreras con animales fantásticos.\n\n## Características técnicas relevantes para extracción\n\n**Motor gráfico:** Usa un engine 3D relativamente simple típico de PSX\n**Formatos probables:**\n- Texturas en formato TIM (común en juegos PSX)\n- Modelos 3D en formato propietario\n- Audio en formato VAG/XA\n- Videos FMV en formato STR\n\n## Herramientas recomendadas para este juego\n\n**jPSXdec** - Muy efectivo para este título, puede extraer:\n- Videos de introducción y cutscenes\n- Texturas de personajes y pistas\n- Audio de música y efectos\n\n**PSX Game Edit** - Útil para:\n- Sprites de UI y menús\n- Texturas de personajes\n- Elementos 2D del HUD\n\n**TiledGGD** - Para visualizar texturas que no se extraigan correctamente con otras herramientas\n\n## Proceso específico sugerido\n\n1. Usar jPSXdec primero (suele detectar automáticamente muchos assets de este juego)\n2. PSX Game Edit para elementos que jPSXdec no capture\n3. Análisis hexadecimal manual para assets específicos si es necesario\n\n¿Qué tipo de assets específicos quieres extraer del Bomberman Fantasy Race? ¿Personajes, pistas, música, o algo en particular?"
+        }
+      },
+      "request_metadata": {
+        "request_id": "a52752cd-11c4-4341-aa3f-714c37a3c85f",
+        "message_id": "889440eb-ce57-44bf-92dd-6a3fe0a17568",
+        "request_start_timestamp_ms": 1766817332816,
+        "stream_end_timestamp_ms": 1766817342006,
+        "time_to_first_chunk": {
+          "secs": 2,
+          "nanos": 26114166
+        },
+        "time_between_chunks": [
+          {
+            "secs": 0,
+            "nanos": 63906
+          },
+          {
+            "secs": 0,
+            "nanos": 117187
+          },
+          {
+            "secs": 0,
+            "nanos": 66981666
+          },
+          {
+            "secs": 0,
+            "nanos": 627031
+          },
+          {
+            "secs": 0,
+            "nanos": 550469
+          },
+          {
+            "secs": 0,
+            "nanos": 1148489
+          },
+          {
+            "secs": 0,
+            "nanos": 24506615
+          },
+          {
+            "secs": 0,
+            "nanos": 41587240
+          },
+          {
+            "secs": 0,
+            "nanos": 105765989
+          },
+          {
+            "secs": 0,
+            "nanos": 42646302
+          },
+          {
+            "secs": 0,
+            "nanos": 48373854
+          },
+          {
+            "secs": 0,
+            "nanos": 48990678
+          },
+          {
+            "secs": 0,
+            "nanos": 109755469
+          },
+          {
+            "secs": 0,
+            "nanos": 49588385
+          },
+          {
+            "secs": 0,
+            "nanos": 45844062
+          },
+          {
+            "secs": 0,
+            "nanos": 52772292
+          },
+          {
+            "secs": 0,
+            "nanos": 105203177
+          },
+          {
+            "secs": 0,
+            "nanos": 44721302
+          },
+          {
+            "secs": 0,
+            "nanos": 48553489
+          },
+          {
+            "secs": 0,
+            "nanos": 41848906
+          },
+          {
+            "secs": 0,
+            "nanos": 82468594
+          },
+          {
+            "secs": 0,
+            "nanos": 66671302
+          },
+          {
+            "secs": 0,
+            "nanos": 33471666
+          },
+          {
+            "secs": 0,
+            "nanos": 39970521
+          },
+          {
+            "secs": 0,
+            "nanos": 106297500
+          },
+          {
+            "secs": 0,
+            "nanos": 77004166
+          },
+          {
+            "secs": 0,
+            "nanos": 133936041
+          },
+          {
+            "secs": 0,
+            "nanos": 192461979
+          },
+          {
+            "secs": 0,
+            "nanos": 35321719
+          },
+          {
+            "secs": 0,
+            "nanos": 10846822
+          },
+          {
+            "secs": 0,
+            "nanos": 38334
+          },
+          {
+            "secs": 0,
+            "nanos": 2068958
+          },
+          {
+            "secs": 0,
+            "nanos": 800312
+          },
+          {
+            "secs": 0,
+            "nanos": 800260
+          },
+          {
+            "secs": 0,
+            "nanos": 6463490
+          },
+          {
+            "secs": 0,
+            "nanos": 17817812
+          },
+          {
+            "secs": 0,
+            "nanos": 48394896
+          },
+          {
+            "secs": 0,
+            "nanos": 47298073
+          },
+          {
+            "secs": 0,
+            "nanos": 43312709
+          },
+          {
+            "secs": 0,
+            "nanos": 49511979
+          },
+          {
+            "secs": 0,
+            "nanos": 47763906
+          },
+          {
+            "secs": 0,
+            "nanos": 47558906
+          },
+          {
+            "secs": 0,
+            "nanos": 46816770
+          },
+          {
+            "secs": 0,
+            "nanos": 92675156
+          },
+          {
+            "secs": 0,
+            "nanos": 374375
+          },
+          {
+            "secs": 0,
+            "nanos": 123052240
+          },
+          {
+            "secs": 0,
+            "nanos": 434115
+          },
+          {
+            "secs": 0,
+            "nanos": 16495729
+          },
+          {
+            "secs": 0,
+            "nanos": 86285416
+          },
+          {
+            "secs": 0,
+            "nanos": 113624896
+          },
+          {
+            "secs": 0,
+            "nanos": 3712396
+          },
+          {
+            "secs": 0,
+            "nanos": 84763385
+          },
+          {
+            "secs": 0,
+            "nanos": 8692656
+          },
+          {
+            "secs": 0,
+            "nanos": 91594115
+          },
+          {
+            "secs": 0,
+            "nanos": 852760
+          },
+          {
+            "secs": 0,
+            "nanos": 210413490
+          },
+          {
+            "secs": 0,
+            "nanos": 64278958
+          },
+          {
+            "secs": 0,
+            "nanos": 93392656
+          },
+          {
+            "secs": 0,
+            "nanos": 144932240
+          },
+          {
+            "secs": 0,
+            "nanos": 201557344
+          },
+          {
+            "secs": 0,
+            "nanos": 32943593
+          },
+          {
+            "secs": 0,
+            "nanos": 2093855
+          },
+          {
+            "secs": 0,
+            "nanos": 3563073
+          },
+          {
+            "secs": 0,
+            "nanos": 702656
+          },
+          {
+            "secs": 0,
+            "nanos": 3668750
+          },
+          {
+            "secs": 0,
+            "nanos": 5730573
+          },
+          {
+            "secs": 0,
+            "nanos": 29584
+          },
+          {
+            "secs": 0,
+            "nanos": 5609479
+          },
+          {
+            "secs": 0,
+            "nanos": 2225885
+          },
+          {
+            "secs": 0,
+            "nanos": 3376510
+          },
+          {
+            "secs": 0,
+            "nanos": 2269584
+          },
+          {
+            "secs": 0,
+            "nanos": 16936510
+          },
+          {
+            "secs": 0,
+            "nanos": 97032084
+          },
+          {
+            "secs": 0,
+            "nanos": 467760
+          },
+          {
+            "secs": 0,
+            "nanos": 94740521
+          },
+          {
+            "secs": 0,
+            "nanos": 86305573
+          },
+          {
+            "secs": 0,
+            "nanos": 16349479
+          },
+          {
+            "secs": 0,
+            "nanos": 86348802
+          },
+          {
+            "secs": 0,
+            "nanos": 12013958
+          },
+          {
+            "secs": 0,
+            "nanos": 87844792
+          },
+          {
+            "secs": 0,
+            "nanos": 9084583
+          },
+          {
+            "secs": 0,
+            "nanos": 89529375
+          },
+          {
+            "secs": 0,
+            "nanos": 505885
+          },
+          {
+            "secs": 0,
+            "nanos": 87373073
+          },
+          {
+            "secs": 0,
+            "nanos": 85528282
+          },
+          {
+            "secs": 0,
+            "nanos": 26984532
+          },
+          {
+            "secs": 0,
+            "nanos": 61520521
+          },
+          {
+            "secs": 0,
+            "nanos": 29878802
+          },
+          {
+            "secs": 0,
+            "nanos": 72376250
+          },
+          {
+            "secs": 0,
+            "nanos": 376881770
+          },
+          {
+            "secs": 0,
+            "nanos": 180131927
+          },
+          {
+            "secs": 0,
+            "nanos": 232459687
+          },
+          {
+            "secs": 0,
+            "nanos": 2056406
+          },
+          {
+            "secs": 0,
+            "nanos": 6058698
+          },
+          {
+            "secs": 0,
+            "nanos": 15727292
+          },
+          {
+            "secs": 0,
+            "nanos": 1677604
+          },
+          {
+            "secs": 0,
+            "nanos": 4363750
+          },
+          {
+            "secs": 0,
+            "nanos": 25846928
+          },
+          {
+            "secs": 0,
+            "nanos": 279375
+          },
+          {
+            "secs": 0,
+            "nanos": 1305937
+          },
+          {
+            "secs": 0,
+            "nanos": 3129375
+          },
+          {
+            "secs": 0,
+            "nanos": 5184791
+          },
+          {
+            "secs": 0,
+            "nanos": 64225781
+          },
+          {
+            "secs": 0,
+            "nanos": 20371458
+          },
+          {
+            "secs": 0,
+            "nanos": 81947240
+          },
+          {
+            "secs": 0,
+            "nanos": 12733802
+          },
+          {
+            "secs": 0,
+            "nanos": 89628125
+          },
+          {
+            "secs": 0,
+            "nanos": 18776875
+          },
+          {
+            "secs": 0,
+            "nanos": 86399584
+          },
+          {
+            "secs": 0,
+            "nanos": 603541
+          },
+          {
+            "secs": 0,
+            "nanos": 87391615
+          },
+          {
+            "secs": 0,
+            "nanos": 335885
+          },
+          {
+            "secs": 0,
+            "nanos": 89639218
+          },
+          {
+            "secs": 0,
+            "nanos": 1189219
+          },
+          {
+            "secs": 0,
+            "nanos": 86782083
+          },
+          {
+            "secs": 0,
+            "nanos": 7530885
+          },
+          {
+            "secs": 0,
+            "nanos": 88571719
+          },
+          {
+            "secs": 0,
+            "nanos": 3219479
+          },
+          {
+            "secs": 0,
+            "nanos": 87767032
+          },
+          {
+            "secs": 0,
+            "nanos": 12723073
+          },
+          {
+            "secs": 0,
+            "nanos": 88410885
+          },
+          {
+            "secs": 0,
+            "nanos": 4109375
+          },
+          {
+            "secs": 0,
+            "nanos": 90041406
+          },
+          {
+            "secs": 0,
+            "nanos": 32860625
+          },
+          {
+            "secs": 0,
+            "nanos": 87729792
+          },
+          {
+            "secs": 0,
+            "nanos": 8155677
+          },
+          {
+            "secs": 0,
+            "nanos": 87102447
+          },
+          {
+            "secs": 0,
+            "nanos": 2264896
+          },
+          {
+            "secs": 0,
+            "nanos": 85669322
+          },
+          {
+            "secs": 0,
+            "nanos": 22575834
+          },
+          {
+            "secs": 0,
+            "nanos": 52965365
+          },
+          {
+            "secs": 0,
+            "nanos": 305065782
+          },
+          {
+            "secs": 0,
+            "nanos": 1575313
+          },
+          {
+            "secs": 0,
+            "nanos": 44480
+          },
+          {
+            "secs": 0,
+            "nanos": 530052
+          },
+          {
+            "secs": 0,
+            "nanos": 1008594
+          },
+          {
+            "secs": 0,
+            "nanos": 851563
+          },
+          {
+            "secs": 0,
+            "nanos": 15356094
+          },
+          {
+            "secs": 0,
+            "nanos": 109803333
+          },
+          {
+            "secs": 0,
+            "nanos": 71982031
+          },
+          {
+            "secs": 0,
+            "nanos": 983802
+          }
+        ],
+        "user_prompt_length": 195,
+        "response_size": 1292,
+        "chat_conversation_type": "NotToolUse",
+        "tool_use_ids_and_names": [],
+        "model_id": "auto",
+        "message_meta_tags": []
+      }
+    },
+    {
+      "user": {
+        "additional_context": "",
+        "env_context": {
+          "env_state": {
+            "operating_system": "linux",
+            "current_working_directory": "/root",
+            "environment_variables": []
+          }
+        },
+        "content": {
+          "Prompt": {
+            "prompt": "pues mira, por nostalgia me.gustaria recrear el juego, adi que me gustaria extraer todo, los aninalitos los oersonajes y las pistas, y pasarlos a un formato que nos oermita rehacer el juego, no se si en el motor de epic gan3s como ves pero para mi, no lo quiero vender solo quiero jugarlo"
+          }
+        },
+        "timestamp": "2025-12-27T06:37:16.938020292Z",
+        "images": null
+      },
+      "assistant": {
+        "Response": {
+          "message_id": "85bb44a1-3b0b-4ea0-9c11-e56f8515c553",
+          "content": "Perfecto, entiendo que es un proyecto personal por nostalgia. Te ayudo con el proceso completo de extracción para recrear Bomberman Fantasy Race.\n\n## Plan de extracción completo\n\n### Fase 1: Preparación\n```bash\n# Necesitarás el ISO del juego original\n# Herramientas: jPSXdec, Blender, Noesis, editores hex\n```\n\n### Fase 2: Extracción por categorías\n\n**Modelos 3D (personajes y animales):**\n- jPSXdec para detectar automáticamente\n- Noesis con plugins PSX para modelos no detectados\n- Convertir a .FBX/.OBJ para Unreal Engine\n\n**Texturas:**\n- jPSXdec extrae la mayoría en formato .PNG\n- TiledGGD para texturas problemáticas\n- Upscale con herramientas AI si quieres mejorar calidad\n\n**Pistas/Escenarios:**\n- Extraer geometría con jPSXdec\n- Reconstruir manualmente en Blender si es necesario\n- Exportar como .FBX para UE5\n\n**Audio:**\n- jPSXdec para música y efectos\n- Convertir .VAG a .WAV/.OGG\n- PSound como alternativa\n\n**Animaciones:**\n- Más complejo, posiblemente necesites ingeniería inversa\n- Recrear manualmente basándote en el juego original\n\n### Fase 3: Preparación para Unreal Engine\n\n**Formatos objetivo:**\n- Modelos: .FBX\n- Texturas: .PNG/.TGA\n- Audio: .WAV/.OGG\n- Animaciones: recrear en UE5\n\n## Proceso paso a paso\n\n1. **Extraer ISO completo con jPSXdec**\n2. **Organizar assets por categorías**\n3. **Limpiar y optimizar en Blender**\n4. **Importar a UE5 y recrear la lógica del juego**\n\n¿Quieres que empecemos con alguna categoría específica? ¿Tienes ya el ISO y las herramientas instaladas?"
+        }
+      },
+      "request_metadata": {
+        "request_id": "8ddc92c1-5149-4ce0-9619-ffae0abe5b92",
+        "message_id": "85bb44a1-3b0b-4ea0-9c11-e56f8515c553",
+        "request_start_timestamp_ms": 1766817436945,
+        "stream_end_timestamp_ms": 1766817448185,
+        "time_to_first_chunk": {
+          "secs": 2,
+          "nanos": 443818853
+        },
+        "time_between_chunks": [
+          {
+            "secs": 0,
+            "nanos": 60885
+          },
+          {
+            "secs": 0,
+            "nanos": 52604
+          },
+          {
+            "secs": 0,
+            "nanos": 22513073
+          },
+          {
+            "secs": 0,
+            "nanos": 54621042
+          },
+          {
+            "secs": 0,
+            "nanos": 868281
+          },
+          {
+            "secs": 0,
+            "nanos": 92299323
+          },
+          {
+            "secs": 0,
+            "nanos": 524480
+          },
+          {
+            "secs": 0,
+            "nanos": 87268646
+          },
+          {
+            "secs": 0,
+            "nanos": 2854636
+          },
+          {
+            "secs": 0,
+            "nanos": 101106980
+          },
+          {
+            "secs": 0,
+            "nanos": 87895521
+          },
+          {
+            "secs": 0,
+            "nanos": 88898386
+          },
+          {
+            "secs": 0,
+            "nanos": 25233125
+          },
+          {
+            "secs": 0,
+            "nanos": 87437604
+          },
+          {
+            "secs": 0,
+            "nanos": 670521
+          },
+          {
+            "secs": 0,
+            "nanos": 88375000
+          },
+          {
+            "secs": 0,
+            "nanos": 2883437
+          },
+          {
+            "secs": 0,
+            "nanos": 68362135
+          },
+          {
+            "secs": 0,
+            "nanos": 20218437
+          },
+          {
+            "secs": 0,
+            "nanos": 80205261
+          },
+          {
+            "secs": 0,
+            "nanos": 13265000
+          },
+          {
+            "secs": 0,
+            "nanos": 89334635
+          },
+          {
+            "secs": 0,
+            "nanos": 4361927
+          },
+          {
+            "secs": 0,
+            "nanos": 93984271
+          },
+          {
+            "secs": 0,
+            "nanos": 87724896
+          },
+          {
+            "secs": 0,
+            "nanos": 923906
+          },
+          {
+            "secs": 0,
+            "nanos": 86660313
+          },
+          {
+            "secs": 0,
+            "nanos": 27080937
+          },
+          {
+            "secs": 0,
+            "nanos": 33143281
+          },
+          {
+            "secs": 0,
+            "nanos": 77749271
+          },
+          {
+            "secs": 0,
+            "nanos": 35260
+          },
+          {
+            "secs": 0,
+            "nanos": 43985260
+          },
+          {
+            "secs": 0,
+            "nanos": 92986354
+          },
+          {
+            "secs": 0,
+            "nanos": 2927448
+          },
+          {
+            "secs": 0,
+            "nanos": 34182291
+          },
+          {
+            "secs": 0,
+            "nanos": 230879427
+          },
+          {
+            "secs": 0,
+            "nanos": 656666
+          },
+          {
+            "secs": 0,
+            "nanos": 1246302
+          },
+          {
+            "secs": 0,
+            "nanos": 206943073
+          },
+          {
+            "secs": 0,
+            "nanos": 493802
+          },
+          {
+            "secs": 0,
+            "nanos": 1866302
+          },
+          {
+            "secs": 0,
+            "nanos": 672500
+          },
+          {
+            "secs": 0,
+            "nanos": 192240
+          },
+          {
+            "secs": 0,
+            "nanos": 197770312
+          },
+          {
+            "secs": 0,
+            "nanos": 1246458
+          },
+          {
+            "secs": 0,
+            "nanos": 423958
+          },
+          {
+            "secs": 0,
+            "nanos": 539583
+          },
+          {
+            "secs": 0,
+            "nanos": 463125
+          },
+          {
+            "secs": 0,
+            "nanos": 583959
+          },
+          {
+            "secs": 0,
+            "nanos": 304762031
+          },
+          {
+            "secs": 0,
+            "nanos": 275677
+          },
+          {
+            "secs": 0,
+            "nanos": 362500
+          },
+          {
+            "secs": 0,
+            "nanos": 29791
+          },
+          {
+            "secs": 0,
+            "nanos": 29427
+          },
+          {
+            "secs": 0,
+            "nanos": 308543542
+          },
+          {
+            "secs": 0,
+            "nanos": 902240
+          },
+          {
+            "secs": 0,
+            "nanos": 41823
+          },
+          {
+            "secs": 0,
+            "nanos": 22604
+          },
+          {
+            "secs": 0,
+            "nanos": 24480
+          },
+          {
+            "secs": 0,
+            "nanos": 245370729
+          },
+          {
+            "secs": 0,
+            "nanos": 63470782
+          },
+          {
+            "secs": 0,
+            "nanos": 20067343
+          },
+          {
+            "secs": 0,
+            "nanos": 73422812
+          },
+          {
+            "secs": 0,
+            "nanos": 307135
+          },
+          {
+            "secs": 0,
+            "nanos": 20658646
+          },
+          {
+            "secs": 0,
+            "nanos": 15022240
+          },
+          {
+            "secs": 0,
+            "nanos": 166922760
+          },
+          {
+            "secs": 0,
+            "nanos": 88213854
+          },
+          {
+            "secs": 0,
+            "nanos": 618802
+          },
+          {
+            "secs": 0,
+            "nanos": 2792916
+          },
+          {
+            "secs": 0,
+            "nanos": 3742187
+          },
+          {
+            "secs": 0,
+            "nanos": 198177
+          },
+          {
+            "secs": 0,
+            "nanos": 178177
+          },
+          {
+            "secs": 0,
+            "nanos": 66566094
+          },
+          {
+            "secs": 0,
+            "nanos": 232292
+          },
+          {
+            "secs": 0,
+            "nanos": 1408281
+          },
+          {
+            "secs": 0,
+            "nanos": 551554948
+          },
+          {
+            "secs": 0,
+            "nanos": 613177
+          },
+          {
+            "secs": 0,
+            "nanos": 2557916
+          },
+          {
+            "secs": 0,
+            "nanos": 2275157
+          },
+          {
+            "secs": 0,
+            "nanos": 333177
+          },
+          {
+            "secs": 0,
+            "nanos": 30938
+          },
+          {
+            "secs": 0,
+            "nanos": 11406
+          },
+          {
+            "secs": 0,
+            "nanos": 20469
+          },
+          {
+            "secs": 0,
+            "nanos": 21406
+          },
+          {
+            "secs": 0,
+            "nanos": 203896874
+          },
+          {
+            "secs": 0,
+            "nanos": 401875
+          },
+          {
+            "secs": 0,
+            "nanos": 17708
+          },
+          {
+            "secs": 0,
+            "nanos": 7084
+          },
+          {
+            "secs": 0,
+            "nanos": 282916
+          },
+          {
+            "secs": 0,
+            "nanos": 114914115
+          },
+          {
+            "secs": 0,
+            "nanos": 987188
+          },
+          {
+            "secs": 0,
+            "nanos": 45000
+          },
+          {
+            "secs": 0,
+            "nanos": 23958
+          },
+          {
+            "secs": 0,
+            "nanos": 389665729
+          },
+          {
+            "secs": 0,
+            "nanos": 357552
+          },
+          {
+            "secs": 0,
+            "nanos": 417864
+          },
+          {
+            "secs": 0,
+            "nanos": 95844115
+          },
+          {
+            "secs": 0,
+            "nanos": 89183645
+          },
+          {
+            "secs": 0,
+            "nanos": 93282656
+          },
+          {
+            "secs": 0,
+            "nanos": 27476459
+          },
+          {
+            "secs": 0,
+            "nanos": 87672916
+          },
+          {
+            "secs": 0,
+            "nanos": 9971979
+          },
+          {
+            "secs": 0,
+            "nanos": 39219
+          },
+          {
+            "secs": 0,
+            "nanos": 11738802
+          },
+          {
+            "secs": 0,
+            "nanos": 42344
+          },
+          {
+            "secs": 0,
+            "nanos": 4352135
+          },
+          {
+            "secs": 0,
+            "nanos": 3883489
+          },
+          {
+            "secs": 0,
+            "nanos": 11812656
+          },
+          {
+            "secs": 0,
+            "nanos": 282292
+          },
+          {
+            "secs": 0,
+            "nanos": 4587344
+          },
+          {
+            "secs": 0,
+            "nanos": 170394635
+          },
+          {
+            "secs": 0,
+            "nanos": 190157
+          },
+          {
+            "secs": 0,
+            "nanos": 160781
+          },
+          {
+            "secs": 0,
+            "nanos": 92116979
+          },
+          {
+            "secs": 0,
+            "nanos": 313906
+          },
+          {
+            "secs": 0,
+            "nanos": 216619219
+          },
+          {
+            "secs": 0,
+            "nanos": 576198
+          },
+          {
+            "secs": 0,
+            "nanos": 39375
+          },
+          {
+            "secs": 0,
+            "nanos": 554115
+          },
+          {
+            "secs": 0,
+            "nanos": 93284583
+          },
+          {
+            "secs": 0,
+            "nanos": 700885
+          },
+          {
+            "secs": 0,
+            "nanos": 41510
+          },
+          {
+            "secs": 0,
+            "nanos": 210352708
+          },
+          {
+            "secs": 0,
+            "nanos": 287708
+          },
+          {
+            "secs": 0,
+            "nanos": 308229
+          },
+          {
+            "secs": 0,
+            "nanos": 90019531
+          },
+          {
+            "secs": 0,
+            "nanos": 227031
+          },
+          {
+            "secs": 0,
+            "nanos": 353750
+          },
+          {
+            "secs": 0,
+            "nanos": 319162604
+          },
+          {
+            "secs": 0,
+            "nanos": 1391093
+          },
+          {
+            "secs": 0,
+            "nanos": 267657
+          },
+          {
+            "secs": 0,
+            "nanos": 29531
+          },
+          {
+            "secs": 0,
+            "nanos": 29948
+          },
+          {
+            "secs": 0,
+            "nanos": 19844
+          },
+          {
+            "secs": 0,
+            "nanos": 202035521
+          },
+          {
+            "secs": 0,
+            "nanos": 404740
+          },
+          {
+            "secs": 0,
+            "nanos": 223073
+          },
+          {
+            "secs": 0,
+            "nanos": 13406719
+          },
+          {
+            "secs": 0,
+            "nanos": 90964687
+          },
+          {
+            "secs": 0,
+            "nanos": 94623854
+          },
+          {
+            "secs": 0,
+            "nanos": 497500
+          },
+          {
+            "secs": 0,
+            "nanos": 95250938
+          },
+          {
+            "secs": 0,
+            "nanos": 737813
+          },
+          {
+            "secs": 0,
+            "nanos": 34323
+          },
+          {
+            "secs": 0,
+            "nanos": 28802
+          },
+          {
+            "secs": 0,
+            "nanos": 30208
+          },
+          {
+            "secs": 0,
+            "nanos": 90501979
+          },
+          {
+            "secs": 0,
+            "nanos": 704896
+          },
+          {
+            "secs": 0,
+            "nanos": 226008854
+          },
+          {
+            "secs": 0,
+            "nanos": 231511
+          },
+          {
+            "secs": 0,
+            "nanos": 220885
+          },
+          {
+            "secs": 0,
+            "nanos": 113229
+          },
+          {
+            "secs": 0,
+            "nanos": 615688438
+          },
+          {
+            "secs": 0,
+            "nanos": 97084
+          },
+          {
+            "secs": 0,
+            "nanos": 45156
+          },
+          {
+            "secs": 0,
+            "nanos": 39167
+          },
+          {
+            "secs": 0,
+            "nanos": 210104
+          },
+          {
+            "secs": 0,
+            "nanos": 36459
+          },
+          {
+            "secs": 0,
+            "nanos": 39063
+          },
+          {
+            "secs": 0,
+            "nanos": 38542
+          },
+          {
+            "secs": 0,
+            "nanos": 615312
+          },
+          {
+            "secs": 0,
+            "nanos": 62136
+          },
+          {
+            "secs": 0,
+            "nanos": 301553386
+          },
+          {
+            "secs": 0,
+            "nanos": 660260
+          },
+          {
+            "secs": 0,
+            "nanos": 10460989
+          },
+          {
+            "secs": 0,
+            "nanos": 87717709
+          },
+          {
+            "secs": 0,
+            "nanos": 93319167
+          },
+          {
+            "secs": 0,
+            "nanos": 218565000
+          },
+          {
+            "secs": 0,
+            "nanos": 83900885
+          },
+          {
+            "secs": 0,
+            "nanos": 945938
+          },
+          {
+            "secs": 0,
+            "nanos": 78073
+          },
+          {
+            "secs": 0,
+            "nanos": 43438
+          },
+          {
+            "secs": 0,
+            "nanos": 43906
+          },
+          {
+            "secs": 0,
+            "nanos": 59687
+          },
+          {
+            "secs": 0,
+            "nanos": 426875
+          }
+        ],
+        "user_prompt_length": 448,
+        "response_size": 1522,
+        "chat_conversation_type": "NotToolUse",
+        "tool_use_ids_and_names": [],
+        "model_id": "auto",
+        "message_meta_tags": []
+      }
+    },
+    {
+      "user": {
+        "additional_context": "",
+        "env_context": {
+          "env_state": {
+            "operating_system": "linux",
+            "current_working_directory": "/root",
+            "environment_variables": []
+          }
+        },
+        "content": {
+          "Prompt": {
+            "prompt": "jajaja 3stamos en android creo que lo dejare para cua fo estenos en la lap"
+          }
+        },
+        "timestamp": "2025-12-27T06:38:26.774851828Z",
+        "images": null
+      },
+      "assistant": {
+        "Response": {
+          "message_id": "6326fba6-e6d4-4a76-94a2-2c51785b7360",
+          "content": "Jajaja, tienes razón! En Android va a ser complicado hacer toda la extracción y trabajo con las herramientas que mencioné.\n\nCuando estés en la laptop, ya tienes el plan completo. Las herramientas principales que necesitarás instalar son:\n\n- **jPSXdec** (Java, multiplataforma)\n- **Blender** (para limpiar modelos)\n- **Noesis** (Windows, para formatos complicados)\n- **Unreal Engine 5** (para recrear el juego)\n\nMientras tanto, si quieres ir preparando, puedes:\n- Conseguir el ISO del Bomberman Fantasy Race\n- Descargar las herramientas\n- Mirar algunos tutoriales de extracción de assets de PSX\n\n¡Será un proyecto genial de nostalgia! Cuando tengas todo listo en la laptop, me avisas y seguimos con la extracción paso a paso."
+        }
+      },
+      "request_metadata": {
+        "request_id": "c0d2b9df-af40-4ef8-8573-3d56ffce52bf",
+        "message_id": "6326fba6-e6d4-4a76-94a2-2c51785b7360",
+        "request_start_timestamp_ms": 1766817506783,
+        "stream_end_timestamp_ms": 1766817513034,
+        "time_to_first_chunk": {
+          "secs": 2,
+          "nanos": 34990937
+        },
+        "time_between_chunks": [
+          {
+            "secs": 0,
+            "nanos": 75417
+          },
+          {
+            "secs": 0,
+            "nanos": 67709
+          },
+          {
+            "secs": 0,
+            "nanos": 534011
+          },
+          {
+            "secs": 0,
+            "nanos": 61407
+          },
+          {
+            "secs": 0,
+            "nanos": 20342604
+          },
+          {
+            "secs": 0,
+            "nanos": 76847240
+          },
+          {
+            "secs": 0,
+            "nanos": 29856875
+          },
+          {
+            "secs": 0,
+            "nanos": 25715625
+          },
+          {
+            "secs": 0,
+            "nanos": 13142760
+          },
+          {
+            "secs": 0,
+            "nanos": 87726718
+          },
+          {
+            "secs": 0,
+            "nanos": 3256302
+          },
+          {
+            "secs": 0,
+            "nanos": 56493125
+          },
+          {
+            "secs": 0,
+            "nanos": 36630573
+          },
+          {
+            "secs": 0,
+            "nanos": 102826979
+          },
+          {
+            "secs": 0,
+            "nanos": 803073
+          },
+          {
+            "secs": 0,
+            "nanos": 32739427
+          },
+          {
+            "secs": 0,
+            "nanos": 94662656
+          },
+          {
+            "secs": 0,
+            "nanos": 88957031
+          },
+          {
+            "secs": 0,
+            "nanos": 5627969
+          },
+          {
+            "secs": 0,
+            "nanos": 87975209
+          },
+          {
+            "secs": 0,
+            "nanos": 9465885
+          },
+          {
+            "secs": 0,
+            "nanos": 91273437
+          },
+          {
+            "secs": 0,
+            "nanos": 2123334
+          },
+          {
+            "secs": 0,
+            "nanos": 45941250
+          },
+          {
+            "secs": 0,
+            "nanos": 88586145
+          },
+          {
+            "secs": 0,
+            "nanos": 3752708
+          },
+          {
+            "secs": 0,
+            "nanos": 91561354
+          },
+          {
+            "secs": 0,
+            "nanos": 72500
+          },
+          {
+            "secs": 0,
+            "nanos": 48661458
+          },
+          {
+            "secs": 0,
+            "nanos": 74258021
+          },
+          {
+            "secs": 0,
+            "nanos": 87545104
+          },
+          {
+            "secs": 0,
+            "nanos": 4379792
+          },
+          {
+            "secs": 0,
+            "nanos": 88300417
+          },
+          {
+            "secs": 0,
+            "nanos": 4218594
+          },
+          {
+            "secs": 0,
+            "nanos": 89524427
+          },
+          {
+            "secs": 0,
+            "nanos": 546250
+          },
+          {
+            "secs": 0,
+            "nanos": 18258906
+          },
+          {
+            "secs": 0,
+            "nanos": 89145000
+          },
+          {
+            "secs": 0,
+            "nanos": 4986458
+          },
+          {
+            "secs": 0,
+            "nanos": 89239010
+          },
+          {
+            "secs": 0,
+            "nanos": 3914739
+          },
+          {
+            "secs": 0,
+            "nanos": 110442917
+          },
+          {
+            "secs": 0,
+            "nanos": 89571354
+          },
+          {
+            "secs": 0,
+            "nanos": 86142343
+          },
+          {
+            "secs": 0,
+            "nanos": 1176094
+          },
+          {
+            "secs": 0,
+            "nanos": 5076302
+          },
+          {
+            "secs": 0,
+            "nanos": 42775781
+          },
+          {
+            "secs": 0,
+            "nanos": 88424375
+          },
+          {
+            "secs": 0,
+            "nanos": 6289792
+          },
+          {
+            "secs": 0,
+            "nanos": 88874531
+          },
+          {
+            "secs": 0,
+            "nanos": 1722396
+          },
+          {
+            "secs": 0,
+            "nanos": 100178334
+          },
+          {
+            "secs": 0,
+            "nanos": 61511
+          },
+          {
+            "secs": 0,
+            "nanos": 89574114
+          },
+          {
+            "secs": 0,
+            "nanos": 295000
+          },
+          {
+            "secs": 0,
+            "nanos": 88804739
+          },
+          {
+            "secs": 0,
+            "nanos": 88052761
+          },
+          {
+            "secs": 0,
+            "nanos": 92643385
+          },
+          {
+            "secs": 0,
+            "nanos": 69741198
+          },
+          {
+            "secs": 0,
+            "nanos": 95561562
+          },
+          {
+            "secs": 0,
+            "nanos": 606562
+          },
+          {
+            "secs": 0,
+            "nanos": 15960208
+          },
+          {
+            "secs": 0,
+            "nanos": 444011
+          },
+          {
+            "secs": 0,
+            "nanos": 5389323
+          },
+          {
+            "secs": 0,
+            "nanos": 79734270
+          },
+          {
+            "secs": 0,
+            "nanos": 16354011
+          },
+          {
+            "secs": 0,
+            "nanos": 85021093
+          },
+          {
+            "secs": 0,
+            "nanos": 88842084
+          },
+          {
+            "secs": 0,
+            "nanos": 25603802
+          },
+          {
+            "secs": 0,
+            "nanos": 87494271
+          },
+          {
+            "secs": 0,
+            "nanos": 11269167
+          },
+          {
+            "secs": 0,
+            "nanos": 95891458
+          },
+          {
+            "secs": 0,
+            "nanos": 240416
+          },
+          {
+            "secs": 0,
+            "nanos": 87945573
+          },
+          {
+            "secs": 0,
+            "nanos": 178333
+          },
+          {
+            "secs": 0,
+            "nanos": 88676146
+          },
+          {
+            "secs": 0,
+            "nanos": 654948
+          },
+          {
+            "secs": 0,
+            "nanos": 88461927
+          },
+          {
+            "secs": 0,
+            "nanos": 5483907
+          },
+          {
+            "secs": 0,
+            "nanos": 88040781
+          },
+          {
+            "secs": 0,
+            "nanos": 7766302
+          },
+          {
+            "secs": 0,
+            "nanos": 88508072
+          },
+          {
+            "secs": 0,
+            "nanos": 4253645
+          },
+          {
+            "secs": 0,
+            "nanos": 100079270
+          },
+          {
+            "secs": 0,
+            "nanos": 86646354
+          },
+          {
+            "secs": 0,
+            "nanos": 8652552
+          },
+          {
+            "secs": 0,
+            "nanos": 164140209
+          },
+          {
+            "secs": 0,
+            "nanos": 16427031
+          }
+        ],
+        "user_prompt_length": 234,
+        "response_size": 733,
+        "chat_conversation_type": "NotToolUse",
+        "tool_use_ids_and_names": [],
+        "model_id": "auto",
+        "message_meta_tags": []
+      }
+    }
+  ],
+  "valid_history_range": [
+    0,
+    4
+  ],
+  "transcript": [
+    "> conoces los metodos qu3 hay para extraer los assets y demas cosas de un juego de psx?",
+    "Sí, hay varios métodos para extraer assets de juegos de PlayStation 1:\n\n## Herramientas principales\n\n**PSX Game Edit** - Editor visual que permite extraer y modificar sprites, texturas y otros assets directamente desde ISOs de PSX.\n\n**jPSXdec** - Herramienta Java especializada en extraer video, audio, imágenes y datos de juegos PSX. Muy efectiva para FMVs y assets multimedia.\n\n**PSound** - Específico para extraer audio (música, efectos de sonido) de juegos PSX.\n\n**TiledGGD** - Para extraer y visualizar gráficos en formato tile/sprite de ROMs y ISOs.\n\n## Métodos por tipo de asset\n\n**Gráficos/Sprites:**\n- Buscar patrones de paletas de colores en el ISO\n- Usar editores hexadecimales para localizar datos gráficos\n- Herramientas como YY-CHR para visualizar datos gráficos raw\n\n**Audio:**\n- Extraer archivos .VAG, .XA o .SEQ\n- Convertir usando VGMToolbox o foobar2000 con plugins PSF\n\n**Video:**\n- Los FMVs suelen estar en formato STR\n- jPSXdec puede convertirlos a formatos modernos\n\n**Modelos 3D:**\n- Más complejo, requiere ingeniería inversa\n- Herramientas como Noesis o scripts personalizados\n\n## Proceso general\n\n1. Montar/extraer el ISO del juego\n2. Analizar la estructura de archivos\n3. Identificar formatos de datos específicos del juego\n4. Usar las herramientas apropiadas según el tipo de asset\n5. Convertir a formatos modernos si es necesario\n\n¿Hay algún juego específico o tipo de asset que te interese extraer?\n[Tool uses: none]",
+    "> si, conoces bomberman fantasy race?",
+    "Sí, conozco Bomberman Fantasy Race. Es un juego de carreras de 1998 desarrollado por Graphic Research para PlayStation, donde los personajes de Bomberman compiten en carreras con animales fantásticos.\n\n## Características técnicas relevantes para extracción\n\n**Motor gráfico:** Usa un engine 3D relativamente simple típico de PSX\n**Formatos probables:**\n- Texturas en formato TIM (común en juegos PSX)\n- Modelos 3D en formato propietario\n- Audio en formato VAG/XA\n- Videos FMV en formato STR\n\n## Herramientas recomendadas para este juego\n\n**jPSXdec** - Muy efectivo para este título, puede extraer:\n- Videos de introducción y cutscenes\n- Texturas de personajes y pistas\n- Audio de música y efectos\n\n**PSX Game Edit** - Útil para:\n- Sprites de UI y menús\n- Texturas de personajes\n- Elementos 2D del HUD\n\n**TiledGGD** - Para visualizar texturas que no se extraigan correctamente con otras herramientas\n\n## Proceso específico sugerido\n\n1. Usar jPSXdec primero (suele detectar automáticamente muchos assets de este juego)\n2. PSX Game Edit para elementos que jPSXdec no capture\n3. Análisis hexadecimal manual para assets específicos si es necesario\n\n¿Qué tipo de assets específicos quieres extraer del Bomberman Fantasy Race? ¿Personajes, pistas, música, o algo en particular?\n[Tool uses: none]",
+    "> pues mira, por nostalgia me.gustaria recrear el juego, adi que me gustaria extraer todo, los aninalitos los oersonajes y las pistas, y pasarlos a un formato que nos oermita rehacer el juego, no se si en el motor de epic gan3s como ves pero para mi, no lo quiero vender solo quiero jugarlo",
+    "Perfecto, entiendo que es un proyecto personal por nostalgia. Te ayudo con el proceso completo de extracción para recrear Bomberman Fantasy Race.\n\n## Plan de extracción completo\n\n### Fase 1: Preparación\n```bash\n# Necesitarás el ISO del juego original\n# Herramientas: jPSXdec, Blender, Noesis, editores hex\n```\n\n### Fase 2: Extracción por categorías\n\n**Modelos 3D (personajes y animales):**\n- jPSXdec para detectar automáticamente\n- Noesis con plugins PSX para modelos no detectados\n- Convertir a .FBX/.OBJ para Unreal Engine\n\n**Texturas:**\n- jPSXdec extrae la mayoría en formato .PNG\n- TiledGGD para texturas problemáticas\n- Upscale con herramientas AI si quieres mejorar calidad\n\n**Pistas/Escenarios:**\n- Extraer geometría con jPSXdec\n- Reconstruir manualmente en Blender si es necesario\n- Exportar como .FBX para UE5\n\n**Audio:**\n- jPSXdec para música y efectos\n- Convertir .VAG a .WAV/.OGG\n- PSound como alternativa\n\n**Animaciones:**\n- Más complejo, posiblemente necesites ingeniería inversa\n- Recrear manualmente basándote en el juego original\n\n### Fase 3: Preparación para Unreal Engine\n\n**Formatos objetivo:**\n- Modelos: .FBX\n- Texturas: .PNG/.TGA\n- Audio: .WAV/.OGG\n- Animaciones: recrear en UE5\n\n## Proceso paso a paso\n\n1. **Extraer ISO completo con jPSXdec**\n2. **Organizar assets por categorías**\n3. **Limpiar y optimizar en Blender**\n4. **Importar a UE5 y recrear la lógica del juego**\n\n¿Quieres que empecemos con alguna categoría específica? ¿Tienes ya el ISO y las herramientas instaladas?\n[Tool uses: none]",
+    "> jajaja 3stamos en android creo que lo dejare para cua fo estenos en la lap",
+    "Jajaja, tienes razón! En Android va a ser complicado hacer toda la extracción y trabajo con las herramientas que mencioné.\n\nCuando estés en la laptop, ya tienes el plan completo. Las herramientas principales que necesitarás instalar son:\n\n- **jPSXdec** (Java, multiplataforma)\n- **Blender** (para limpiar modelos)\n- **Noesis** (Windows, para formatos complicados)\n- **Unreal Engine 5** (para recrear el juego)\n\nMientras tanto, si quieres ir preparando, puedes:\n- Conseguir el ISO del Bomberman Fantasy Race\n- Descargar las herramientas\n- Mirar algunos tutoriales de extracción de assets de PSX\n\n¡Será un proyecto genial de nostalgia! Cuando tengas todo listo en la laptop, me avisas y seguimos con la extracción paso a paso.\n[Tool uses: none]",
+    "> /chat save fantasy-race.chat"
+  ],
+  "tools": {
+    "native___": [
+      {
+        "ToolSpecification": {
+          "name": "glob",
+          "description": "Find files and directories whose paths match a glob pattern. Respects .gitignore. Prefer this over the bash 'find' command for listing or discovering paths. Returns JSON with totalFiles (count found), truncated (true if limited), and filePaths array. When truncated is true, just mention results are truncated, don't state the limit number.",
+          "input_schema": {
+            "json": {
+              "required": [
+                "pattern"
+              ],
+              "type": "object",
+              "properties": {
+                "limit": {
+                  "description": "Maximum files to return. If totalFiles exceeds this, truncated will be true.",
+                  "type": "integer"
+                },
+                "pattern": {
+                  "type": "string",
+                  "description": "Glob pattern, e.g. \"**/*.rs\", \"src/**/*.{ts,tsx}\" or \"**/test*\"."
+                },
+                "max_depth": {
+                  "type": "integer",
+                  "description": "Maximum directory depth to traverse. Increase for deep nested structures."
+                },
+                "path": {
+                  "type": "string",
+                  "description": "Root directory to search from. Only set this when the user explicitly mentions a directory path. In all other cases, omit this so the tool searches from the current working directory (the project root)."
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "introspect",
+          "description": "ALWAYS use this tool when users ask ANY question about Q CLI itself, its capabilities, features, commands, or functionality. This includes questions like 'Can you...', 'Do you have...', 'How do I...', 'What can you do...', or any question about Q's abilities. When mentioning commands in your response, always prefix them with '/' (e.g., '/save', '/load', '/context'). CRITICAL: Only provide information explicitly documented in Q CLI documentation. If details about any tool, feature, or command are not documented, clearly state the information is not available rather than generating assumptions.",
+          "input_schema": {
+            "json": {
+              "properties": {
+                "query": {
+                  "type": "string",
+                  "description": "The user's question about Q CLI usage, features, or capabilities"
+                }
+              },
+              "required": [],
+              "type": "object"
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "report_issue",
+          "description": "Opens the browser to a pre-filled gh (GitHub) issue template to report chat issues, bugs, or feature requests. Pre-filled information includes the conversation transcript, chat context, and chat request IDs from the service.",
+          "input_schema": {
+            "json": {
+              "required": [
+                "title"
+              ],
+              "type": "object",
+              "properties": {
+                "title": {
+                  "description": "The title of the GitHub issue.",
+                  "type": "string"
+                },
+                "steps_to_reproduce": {
+                  "description": "Optional: Previous user chat requests or steps that were taken that may have resulted in the issue or error response.",
+                  "type": "string"
+                },
+                "actual_behavior": {
+                  "type": "string",
+                  "description": "Optional: The actual chat behavior that happened and demonstrates the issue or lack of a feature."
+                },
+                "expected_behavior": {
+                  "description": "Optional: The expected chat behavior or action that did not happen.",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "web_search",
+          "description": "WebSearch looks up information that is outside the model's training data or cannot be reliably inferred from the current codebase/context.\nTool performs basic compliance wrt content licensing and restriction.\nAs an agent you are responsible for adhering to compliance and attribution requirements.\nIMPORTANT: The snippets often contain enough information to answer questions - only use web_fetch if you need more detailed content from a specific webpage.\n\n## When to Use\n- When the user asks for current or up-to-date information (e.g., pricing, versions, technical specs) or explicitly requests a web search.\n- When verifying information that may have changed recently, or when the user provides a specific URL to inspect.\n\n## When NOT to Use\n- When the question involves basic concepts, historical facts, or well-established programming syntax/technical documentation.\n- When the topic does not require current or evolving information.\n- If the query concerns non-coding topics (e.g., news, current affairs, religion, economics, society). You must not invoke this tool.\n\nFor any code-related tasks, follow this order:\n1. Search within the repository (if tools are available) and check if it can be inferred from existing code or documentation.\n2. Use this tool only if still unresolved and the library/data is likely new/unseen.\n\n## Content Compliance Requirements\nYou MUST adhere to strict licensing restrictions and attribution requirements when using search results:\n\n### Attribution Requirements\n- ALWAYS provide inline links to original sources using format: [description](url)\n- If not possible to provide inline link, add sources at the end of file\n- Ensure attribution is visible and accessible\n\n### Verbatim Reproduction Limits\n- NEVER reproduce more than 30 consecutive words from any single source\n- Track word count per source to ensure compliance\n- Always paraphrase and summarize rather than quote directly\n- Add compliance note when the content from the source is rephrased: \"Content was rephrased for compliance with licensing restrictions\"\n\n### Content Modification Guidelines\n- You MAY paraphrase, summarize, and reformat content\n- You MUST NOT materially change the underlying substance or meaning\n- Preserve factual accuracy while condensing information\n- Avoid altering core arguments, data, or conclusions\n\n## Usage Details\n- You may rephrase user queries to improve search effectiveness\n- You can make multiple queries to gather comprehensive information\n- Consider breaking complex questions into focused searches\n- Refine queries based on initial results if needed\n\n## Output Usage\n- Prioritize latest published sources based on publishedDate\n- Prefer official documentation to blogs and news posts\n- Use domain information to assess source authority and reliability\n\n## Error Handling\n- If unable to comply with content restrictions, explain limitations to user\n- Suggest alternative approaches when content cannot be reproduced\n- Prioritize compliance over completeness when conflicts arise\n\n## Output\nThe tool returns a JSON object with a \"results\" array containing search results:\n\n{\n  \"results\": [\n    {\n      \"title\": \"Example Page Title\",\n      \"url\": \"https://example.com/page\",\n      \"snippet\": \"Brief excerpt from the page...\",\n      \"publishedDate\": \"2025-11-20T10:30:00Z\",\n      \"domain\": \"example.com\",\n      \"id\": \"unique-id-123\",\n      \"maxVerbatimWordLimit\": 30,\n      \"publicDomain\": false\n    }\n  ]\n}\n\n## UI FROM LLM (You) back to the user\nCRITICAL: Always start your response with \"Here's what I found:\" and then start from a newline.\nALWAYS end your response with a blank line followed by 'References:' and list the sources you used in sequential order [1], [2], [3], etc. with NO gaps in numbering. Format: '[N] Title - URL' one per line. Truncate long titles to 80 characters and long URLs to 100 characters, adding '...' if truncated.",
+          "input_schema": {
+            "json": {
+              "required": [
+                "query"
+              ],
+              "properties": {
+                "query": {
+                  "description": "Search query - can be keywords, questions, or specific topics",
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "grep",
+          "description": "Fast content search in files using regex. ALWAYS use this tool instead of 'grep', 'rg', or 'ag' commands in bash. Respects .gitignore. Use for: finding code patterns, searching for function definitions, locating string occurrences. When you use this tool, prefer to show the user a small list of representative matches (including file paths and line numbers) instead of only giving a high-level summary.",
+          "input_schema": {
+            "json": {
+              "type": "object",
+              "required": [
+                "pattern"
+              ],
+              "properties": {
+                "include": {
+                  "description": "File filter glob. Examples: \"*.rs\", \"*.{ts,tsx}\", \"*.py\"",
+                  "type": "string"
+                },
+                "max_matches_per_file": {
+                  "type": "integer",
+                  "description": "Max matches returned per file (output limit). Increase to see all occurrences in a file."
+                },
+                "output_mode": {
+                  "description": "Output format: 'content' returns matches as 'file:line:content' (default, best for seeing actual matches), 'files_with_matches' returns only file paths, 'count' returns match counts per file.",
+                  "type": "string",
+                  "enum": [
+                    "content",
+                    "files_with_matches",
+                    "count"
+                  ]
+                },
+                "max_files": {
+                  "type": "integer",
+                  "description": "Max number of files returned (output limit). Increase for comprehensive codebase searches."
+                },
+                "case_sensitive": {
+                  "description": "Case-sensitive search. Defaults to false (case-insensitive).",
+                  "type": "boolean"
+                },
+                "pattern": {
+                  "description": "Regex pattern to search for. Examples: \"fn main\", \"class.*Component\", \"TODO|FIXME\". Start with simple patterns first (e.g. just the word you're looking for), then refine if needed.",
+                  "type": "string"
+                },
+                "path": {
+                  "description": "Directory to search from. Defaults to current working directory.",
+                  "type": "string"
+                },
+                "max_total_lines": {
+                  "description": "Max total matched lines returned across all files (output limit). Increase when searching for many occurrences.",
+                  "type": "integer"
+                },
+                "max_depth": {
+                  "type": "integer",
+                  "description": "Max directory depth to traverse when searching (search limit). Increase for deeply nested structures."
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "execute_bash",
+          "description": "Execute the specified bash command.",
+          "input_schema": {
+            "json": {
+              "required": [
+                "command"
+              ],
+              "properties": {
+                "command": {
+                  "type": "string",
+                  "description": "Bash command to execute"
+                },
+                "summary": {
+                  "description": "A brief explanation of what the command does",
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "dummy",
+          "description": "This is a dummy tool. If you are seeing this that means the tool associated with this tool call is not in the list of available tools. This could be because a wrong tool name was supplied or the list of tools has changed since the conversation has started. Do not show this when user asks you to list tools.",
+          "input_schema": {
+            "json": {
+              "type": "object",
+              "properties": {},
+              "required": []
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "web_fetch",
+          "description": "Fetch and extract content from a specific URL. Supports three modes: 'selective' (default, extracts relevant sections around search terms), 'truncated' (first 8000 chars), 'full' (complete content). Use 'selective' mode to read specific parts of a page multiple times without filling context. Provide 'search_terms' in selective mode to find relevant sections (e.g., 'pricing', 'installation').",
+          "input_schema": {
+            "json": {
+              "type": "object",
+              "required": [
+                "url"
+              ],
+              "properties": {
+                "mode": {
+                  "type": "string",
+                  "enum": [
+                    "selective",
+                    "truncated",
+                    "full"
+                  ],
+                  "description": "Extraction mode: 'selective' for smart extraction (default), 'truncated' for first 8000 chars, 'full' for complete content"
+                },
+                "url": {
+                  "type": "string",
+                  "description": "URL to fetch content from"
+                },
+                "search_terms": {
+                  "type": "string",
+                  "description": "Optional: Keywords to find in selective mode (e.g., 'pricing cost', 'installation setup'). Returns ~10 lines before and after matches. If not provided, returns beginning of page."
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "use_aws",
+          "description": "Make an AWS CLI api call with the specified service, operation, and parameters. All arguments MUST conform to the AWS CLI specification. Should the output of the invocation indicate a malformed command, invoke help to obtain the the correct command.",
+          "input_schema": {
+            "json": {
+              "type": "object",
+              "properties": {
+                "region": {
+                  "type": "string",
+                  "description": "Region name for calling the operation on AWS."
+                },
+                "parameters": {
+                  "description": "The parameters for the operation. The parameter keys MUST conform to the AWS CLI specification. You should prefer to use JSON Syntax over shorthand syntax wherever possible. For parameters that are booleans, prioritize using flags with no value. Denote these flags with flag names as key and an empty string as their value. You should also prefer kebab case.",
+                  "type": "object"
+                },
+                "service_name": {
+                  "type": "string",
+                  "pattern": "^[^-].*",
+                  "description": "The name of the AWS service. If you want to query s3, you should use s3api if possible. Must not start with a dash (-)."
+                },
+                "label": {
+                  "type": "string",
+                  "description": "Human readable description of the api that is being called."
+                },
+                "operation_name": {
+                  "description": "The name of the operation to perform.",
+                  "type": "string"
+                },
+                "profile_name": {
+                  "description": "Optional: AWS profile name to use from ~/.aws/credentials. Defaults to default profile if not specified.",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "region",
+                "service_name",
+                "operation_name",
+                "label"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "fs_write",
+          "description": "A tool for creating and editing files\n * The `create` command will override the file at `path` if it already exists as a file, and otherwise create a new file\n * The `append` command will add content to the end of an existing file, automatically adding a newline if the file doesn't end with one. The file must exist.\n Notes for using the `str_replace` command:\n * The `old_str` parameter should match EXACTLY one or more consecutive lines from the original file. Be mindful of whitespaces!\n * If the `old_str` parameter is not unique in the file, the replacement will not be performed. Make sure to include enough context in `old_str` to make it unique\n * The `new_str` parameter should contain the edited lines that should replace the `old_str`.",
+          "input_schema": {
+            "json": {
+              "required": [
+                "command",
+                "path"
+              ],
+              "type": "object",
+              "properties": {
+                "file_text": {
+                  "type": "string",
+                  "description": "Required parameter of `create` command, with the content of the file to be created."
+                },
+                "insert_line": {
+                  "type": "integer",
+                  "description": "Required parameter of `insert` command. The `new_str` will be inserted AFTER the line `insert_line` of `path`."
+                },
+                "new_str": {
+                  "description": "Required parameter of `str_replace` command containing the new string. Required parameter of `insert` command containing the string to insert. Required parameter of `append` command containing the content to append to the file.",
+                  "type": "string"
+                },
+                "command": {
+                  "description": "The commands to run. Allowed options are: `create`, `str_replace`, `insert`, `append`.",
+                  "type": "string",
+                  "enum": [
+                    "create",
+                    "str_replace",
+                    "insert",
+                    "append"
+                  ]
+                },
+                "old_str": {
+                  "description": "Required parameter of `str_replace` command containing the string in `path` to replace.",
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string",
+                  "description": "Absolute path to file or directory, e.g. `/repo/file.py` or `/repo`."
+                },
+                "summary": {
+                  "type": "string",
+                  "description": "A brief explanation of what the file change does or why it's being made."
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "use_subagent",
+          "description": "⚠️ CRITICAL DELEGATION TOOL ⚠️\n\n🔍 BEFORE attempting ANY task, CHECK if you have the required tools in YOUR current tool list.\n\n❌ If you DON'T have the necessary tools → YOU MUST use this tool to delegate to a subagent that does.\n✅ If you DO have the tools → Handle the task yourself.\n\n## When to Use (MANDATORY scenarios):\n\n1. **MISSING TOOLS**: The user asks you to do something but you don't see the required tool in your available tools list\n   - Example: User asks to read a file, but you don't have 'fs_read' → USE THIS TOOL\n   - Example: User asks to search code, but you don't have 'code' tool → USE THIS TOOL\n   - Example: User asks to run bash command, but you don't have 'execute_bash' → USE THIS TOOL\n\n2. **PARALLEL PROCESSING**: A complex task can be split into independent subtasks that different specialized agents can handle simultaneously\n\n3. **CAPABILITY CHECK**: Use ListAgents command first to see what specialized agents and their toolsets are available\n\n## How Subagents Are Different:\n- Subagents have DIFFERENT, SPECIALIZED toolsets than you\n- Each subagent may have tools you don't have access to\n- They operate independently with their own context\n- Up to 4 subagents can work in parallel\n\n## Decision Flow:\n```\nUser makes request → Check YOUR tools list → Missing required tool? → USE use_subagent\n                                          → Have required tool? → Handle it yourself\n```\n\n⚡ Remember: Don't apologize about lacking tools - just delegate to a subagent that has them! Also note that subagents that are spawned together could not communicate with each other. If they are to perform tasks that are dependent on each other. Spawn them with a different tool call!",
+          "input_schema": {
+            "json": {
+              "type": "object",
+              "properties": {
+                "command": {
+                  "enum": [
+                    "ListAgents",
+                    "InvokeSubagents"
+                  ],
+                  "type": "string",
+                  "description": "The commands to run. Allowed options are `ListAgents` to query available agents, or `InvokeSubagents` to invoke one or more subagents"
+                },
+                "content": {
+                  "description": "Required for `InvokeSubagents` command. Contains subagents array and optional conversation ID.",
+                  "properties": {
+                    "subagents": {
+                      "type": "array",
+                      "items": {
+                        "properties": {
+                          "relevant_context": {
+                            "description": "Optional additional context that should be provided to the subagent to help it understand the task better",
+                            "type": "string"
+                          },
+                          "query": {
+                            "description": "The query or task to be handled by the subagent",
+                            "type": "string"
+                          },
+                          "agent_name": {
+                            "type": "string",
+                            "description": "Optional name of the specific agent to use. If not provided, uses the default agent"
+                          }
+                        },
+                        "type": "object",
+                        "required": [
+                          "query"
+                        ]
+                      },
+                      "description": "Array of subagent invocations to execute in parallel. Each invocation specifies a query, optional agent name, and optional context."
+                    }
+                  },
+                  "type": "object",
+                  "required": [
+                    "subagents"
+                  ]
+                }
+              },
+              "required": [
+                "command"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "ToolSpecification": {
+          "name": "fs_read",
+          "description": "Tool for reading files, directories and images. Always provide an 'operations' array.\n\nFor single operation: provide array with one element.\nFor batch operations: provide array with multiple elements.\n\nAvailable modes:\n- Line: Read lines from a file\n- Directory: List directory contents\n- Search: Search for patterns in files\n- Image: Read and process images\n\nExamples:\n1. Single: {\"operations\": [{\"mode\": \"Line\", \"path\": \"/file.txt\"}]}\n2. Batch: {\"operations\": [{\"mode\": \"Line\", \"path\": \"/file1.txt\"}, {\"mode\": \"Search\", \"path\": \"/file2.txt\", \"pattern\": \"test\"}]}",
+          "input_schema": {
+            "json": {
+              "type": "object",
+              "properties": {
+                "operations": {
+                  "type": "array",
+                  "description": "Array of operations to execute. Provide one element for single operation, multiple for batch.",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "mode"
+                    ],
+                    "properties": {
+                      "depth": {
+                        "description": "Depth of a recursive directory listing (optional, for Directory mode)",
+                        "type": "integer",
+                        "default": 0
+                      },
+                      "path": {
+                        "type": "string",
+                        "description": "Path to the file or directory. The path should be absolute, or otherwise start with ~ for the user's home (required for Line, Directory, Search modes)."
+                      },
+                      "max_entries": {
+                        "description": "Maximum number of entries to return (optional, for Directory mode). When limit is reached, results are truncated and metadata shows 'showing X of Y entries'. Use to prevent context window overflow. Default: 1000",
+                        "type": "integer",
+                        "default": 1000
+                      },
+                      "context_lines": {
+                        "default": 2,
+                        "description": "Number of context lines around search results (optional, for Search mode)",
+                        "type": "integer"
+                      },
+                      "start_line": {
+                        "default": 1,
+                        "type": "integer",
+                        "description": "Starting line number (optional, for Line mode). A negative index represents a line number starting from the end of the file."
+                      },
+                      "pattern": {
+                        "type": "string",
+                        "description": "Pattern to search for (required, for Search mode). Case insensitive. The pattern matching is performed per line."
+                      },
+                      "mode": {
+                        "description": "The operation mode to run in: `Line`, `Directory`, `Search`. `Line` and `Search` are only for text files, and `Directory` is only for directories. `Image` is for image files, in this mode `image_paths` is required.",
+                        "enum": [
+                          "Line",
+                          "Directory",
+                          "Search",
+                          "Image"
+                        ],
+                        "type": "string"
+                      },
+                      "offset": {
+                        "type": "integer",
+                        "default": 0,
+                        "description": "Number of entries to skip for pagination (optional, for Directory mode). Use with max_entries to iterate through large directories. Entries are sorted by last modified time (most recent first). Default: 0"
+                      },
+                      "exclude_patterns": {
+                        "description": "Glob patterns to exclude from directory listing (optional, for Directory mode). If omitted, uses defaults. If empty array [] is provided, no exclusions are applied (shows everything). If patterns are provided, they completely override the defaults. Examples: '**/target/**', '*.log'",
+                        "default": [
+                          "node_modules",
+                          ".git",
+                          "dist",
+                          "build",
+                          "out",
+                          ".cache",
+                          "target"
+                        ],
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "end_line": {
+                        "type": "integer",
+                        "default": -1,
+                        "description": "Ending line number (optional, for Line mode). A negative index represents a line number starting from the end of the file."
+                      },
+                      "image_paths": {
+                        "type": "array",
+                        "description": "List of paths to the images. This is currently supported by the Image mode.",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "summary": {
+                  "description": "Optional description of the purpose of this batch operation (mainly useful for multiple operations)",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "operations"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "context_manager": {
+    "max_context_files_size": 150000,
+    "current_profile": "kiro_default",
+    "paths": [
+      "AmazonQ.md",
+      "AGENTS.md",
+      "README.md"
+    ],
+    "hooks": {}
+  },
+  "context_message_length": 1733,
+  "latest_summary": null,
+  "model_info": {
+    "model_name": "Auto",
+    "description": "Models chosen by task for optimal usage and consistent quality",
+    "model_id": "auto",
+    "context_window_tokens": 200000,
+    "rate_multiplier": 1.0,
+    "rate_unit": "credit"
+  },
+  "file_line_tracker": {},
+  "checkpoint_manager": null,
+  "mcp_enabled": true,
+  "mcp_last_checked": [
+    2025,
+    361,
+    6,
+    34,
+    32,
+    34319313,
+    0,
+    0,
+    0
+  ],
+  "mcp_server_versions": {},
+  "user_turn_metadata": {
+    "continuation_id": "a3e2371e-b669-4150-8bb2-5a0cd64db32d",
+    "requests": [],
+    "usage_info": []
+  }
+}
